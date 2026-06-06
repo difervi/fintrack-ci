@@ -15,9 +15,6 @@ def create_app():
     def health():
         return jsonify({"status": "ok", "service": "fintrack-api"})
 
-    with app.app_context():
-        db.create_all()
-
     return app
 
 
