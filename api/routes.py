@@ -1,7 +1,6 @@
 from flask import Blueprint, jsonify, request
 from models import db, User, Category, Transaction
 
-
 api = Blueprint("api", __name__, url_prefix="/api")
 
 
