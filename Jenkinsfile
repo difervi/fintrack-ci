@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 stages {
 
     stage('Clonar codigo') {
@@ -38,6 +37,5 @@ post {
         echo 'La ejecucion fallo'
     }
 }
-```
 
 }
